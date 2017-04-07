@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitech.JokKade"
+    android:id="@id/network_unavailable_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F6F6F6"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="5.0dip" >
+
+    <ImageView
+        android:id="@id/relaod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_action_reload" />
+
+    <com.hitech.JokKade.utility.TextViewPlus
+        android:id="@id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10.0dip"
+        android:textSize="14.0sp"
+        app:customFont="DroidNaskh.ttf"
+        android:text="@string/mostLogin" />
+
+</LinearLayout>

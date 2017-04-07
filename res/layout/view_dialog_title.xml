@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitech.JokKade"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <com.hitech.JokKade.utility.TextViewPlus
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:padding="12.0dip"
+        android:textColor="#fff"
+        android:background="@color/actionbar_color"
+        android:textSize="20.0dip"
+        android:textStyle="bold" 
+        android:text="@string/type"
+        app:customFont="DroidNaskh.ttf"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:background="@color/actionbar_seprator" />
+
+</LinearLayout>

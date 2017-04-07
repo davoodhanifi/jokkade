@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">جک کده</string>
+    <string name="hello_world">سلام</string>
+    <string name="offline">ذخیره شده</string>
+    <string name="share">اشتراک گذاری</string>
+    <string name="no_result">لیست خالی است</string>
+    <string name="search">search</string>
+    <string name="filter">فیلتر</string>
+    <string name="cat_all">همه</string>
+    <string name="account">حساب کاربری</string>
+    <string name="login">ورود</string>
+    <string name="send">ارسال</string>
+    <string name="register">ثبت نام</string>
+    <string name="hint_email">ایمیل</string>
+    <string name="contact_us_text">در صورت بروز هرگونه مشکل و یا برای ارائه نظرات وانتقادات از طریق فرم زیر با ما در ارتباط باشید.</string>
+    <string name="contact_us">تمـــاس با ما</string>
+    <string name="mostLogin">باید به اینترنــــــــت وصـــل باشــی!</string>
+    <string name="hint_pass">رمز عبور </string>
+    <string name="loginnote">واسه ارسال متن باید لاگین کنی، اگه تو نرم افزار "زن باس" عضو هستی با همون میتونی وارد شی، اگه عضو نیستی دکمه "عضو نیستم" رو بزن  </string>
+    <string name="notRegister">عضو نیستم! </string>
+    <string name="sentence">متن</string>
+    <string name="wait">لطفا چند لحظه صبر کنید</string>
+    <string name="msg_pass_least_6">کلمه عبور حداقل باید ۶ حرف باشد</string>
+    <string name="msg_email_required">لطفا ایمیل را وارد کنید</string>
+    <string name="ok">تایید</string>
+    <string name="msg_login_ok">وارد شدید</string>
+    <string name="logout">خروج</string>
+    <string name="msg_network_error">خطای شبکه</string>
+    <string name="msg_view_site">"لطفا به وب سایت برنامه مراجعه نمایید."</string>
+    <string name="hint_nickname">نام نمایشی</string>
+    <string name="msg_nickname_least_6">نام نمایشی حداقل باید ۶ حرف باشد</string>
+    <string name="edit_profile">ویرایش پروفایل</string>
+    <string name="trends">رو بورس</string>
+    <string name="refresh">بروزرسانی</string>
+    <string name="news">جدیدترین</string>
+    <string name="populars">محبوب ترین</string>
+    <string name="zanbaas">جک کده</string>
+    <string name="tag">برچسب</string>
+    <string name="msg_password_required">کلمه عبور نباید خالی باشد</string>
+    <string name="forgot_pass">رمز عبور رو فراموش کردم!</string>
+    <string name="activate">ایمیل فعال سازی ارسال نشده است</string>
+    <string name="sd_not_found">کارت حافظه متصل نیست</string>
+    <string name="search_at_least_3_char">حد اقل ۳ کاراکتر وارد نمایید</string>
+    <string name="loginError">ایمیل یا رمز عبور اشتباهه!</string>
+    <string name="online">آنلاین</string>
+    <string name="help">راهنما</string>
+    <string name="download">دانلود</string>
+    <string name="unread">خوانده نشده ها</string>
+    <string name="home">خانه</string>
+    <string name="read">خوانده شده ها</string>
+    <string name="stared">نشان شده ها</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu">منو دسترسی</string>
+    <string name="copied">متن در حافظه کپی شد</string>
+    <string name="fillSentence">متن رو وارد کن.</string>
+    <string name="addSentence">ارسال متن</string>
+     <string name="zanbaasApp">نرم افزار زن بـــاس</string>
+     <string name="makanyabApp">نرم افزار مکان یاب</string>
+    <string name="textSample">جک رو اینجا بنویس</string>
+    <string name="upgradeApp">ارتقا به نسخه طلایی</string>
+    <string name="coomentApp">نظر به برنامه</string>
+    <string name="upgradeAppText"> با ارتقا نرم افزار به نسخه طلایی جملات دیگه محدود نیستن، هر لحظه میتونی (با دکمه آپدیت تو نرم افزار) جملات بیشتر رو از سرور اصلی نرم افزار دانلود و تو گوشیت ذخیره کنی. </string>
+    <string name="type">انتخاب نوع</string>
+    <string name="drawer_open">منو باز  است</string>
+    <string name="drawer_close">منو بسته است</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="dbVersion">1</string>
+     <string name="Droid">Droid</string>
+    <string name="moreItems">موارد بیشتر</string>
+    <string name="HiTec">موارد استدیو</string>
+    <string name="Support">پشتیبانی</string>
+    <string name="Terms">قوانین</string>
+    <string name="AboutUs">درباره ما</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>خوانده نشده ها</item>
+        <item>خوانده شده ها</item>
+        <item>نشان شده ها</item>
+        <item>ایجاد متن </item>
+        <item>درباره ما</item>
+        <item>تماس با ما</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+  <!--   <array name="nav_drawer_icons">
+        <item>@drawable/sms</item>
+        <item>@drawable/sms</item>
+        <item>@drawable/sms</item>
+        <item>@drawable/ic_addsentence</item>
+        <item>@drawable/ic_info</item>
+        <item>@drawable/ic_contact</item>
+    </array> -->
+
+    <string-array name="types">
+        <item>زن ّبــــاس</item>
+        <item>مرد بــــاس</item>
+        <item>خواهر شوهر بــــاس</item>
+        <item> مهندس بــــاس </item>
+    </string-array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">آیتم های منو</string>
+
+</resources>

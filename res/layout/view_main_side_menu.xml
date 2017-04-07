@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitech.JokKade"
+    android:id="@+id/right_drawer"
+    android:layout_width="240.0dip"
+    android:layout_height="fill_parent"
+    android:layout_gravity="left"
+    android:background="@drawable/item_simple"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:overScrollMode="never" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff343434"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/home_holder"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/homeIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_action_unread"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/homeIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/home"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+
+            <com.hitech.JokKade.utility.TextViewPlus
+                android:id="@+id/categoriesTitle"
+                style="@style/SideMenuHeader"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:text="@string/moreItems"
+                app:customFont="DroidNaskh.ttf" />
+
+            <RelativeLayout
+                android:id="@+id/add_sentence_holder"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/addSentenceIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_add"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:id="@+id/addSentenceText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/addSentenceIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/addSentence"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+
+              <RelativeLayout
+                android:id="@+id/comment"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/commentIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/comment"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:id="@+id/commentText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/commentIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/coomentApp"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+
+            <com.hitech.JokKade.utility.TextViewPlus
+                android:id="@+id/otherItemsTitle"
+                style="@style/SideMenuHeader"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:text="@string/HiTec"
+                app:customFont="DroidNaskh.ttf" />
+
+            <RelativeLayout
+                android:id="@+id/support"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/supportIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_contact"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/supportIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/Support"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+
+             <RelativeLayout
+                android:id="@+id/zanbaas"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/zanbaasIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/zanbaas"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:id="@+id/zanbaasText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/zanbaasIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/zanbaasApp"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+            
+ <RelativeLayout
+                android:id="@+id/makanYab"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/makanYabIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/location"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:id="@+id/makanYabText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/makanYabIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/makanyabApp"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+            
+             
+             
+             
+            <RelativeLayout
+                android:id="@+id/terms"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/termsIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/law"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/termsIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/Terms"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/about"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/sliding_menu_item_height"
+                android:background="@drawable/item_side_menu"
+                android:clickable="true"
+                android:gravity="right|center" >
+
+                <TextView
+                    android:id="@+id/aboutIcon"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_info"
+                    android:textAppearance="@style/SideMenuIcon" />
+
+                <com.hitech.JokKade.utility.TextViewPlus
+                    android:id="@+id/aboutText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/aboutIcon"
+                    android:paddingLeft="10.0dip"
+                    android:text="@string/AboutUs"
+                    android:textAppearance="@style/SideMenuText"
+                    app:customFont="DroidNaskh.ttf" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/item_side_menu" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitech.JokKade"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ListView
+        android:id="@id/lstStare"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="true" />
+
+    <com.hitech.JokKade.utility.TextViewPlus
+        android:id="@id/tvEmptyStare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_result"
+        android:textSize="20.0sp"
+        app:customFont="DroidNaskh.ttf" />
+
+    <View
+        android:id="@id/shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_above="@id/lstOffline"
+        android:layout_marginBottom="10.0dip"
+        android:background="@color/actionbar_seprator" />
+
+
+</RelativeLayout>

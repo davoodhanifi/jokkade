@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#ffffffff</color>
+    <color name="tab_item_selected_border">#ffffffff</color>
+    <color name="title_text_color">#ff0099cc</color>
+    <color name="title_bg_color">#fff7f7f7</color>
+    <color name="seperator">#ffd0d0d0</color>
+    <color name="read_bg_color">#f1f1f1</color>
+    <color name="toolbar_bg_color">#55555555</color>
+    <!-- <color name="bg_color">#ffeeeeee</color> -->
+    <color name="bg_color">#ffffffff</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#5A5A50</color>
+    <color name="list_divider">#6E6E4A</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="actionbar_color">#A25FA2</color>
+    <color name="actionbar_seprator">#751975</color>
+    <color name="btn_pressed">#B57FB5</color>
+    <color name="transparentBg">#474747</color>
+    <color name="red">#ffa62626</color>
+    <color name="side_menu_gray">#ff151515</color>
+    <color name="gray_header_text_shadow">#ffbbbbbb</color>
+    <color name="gray_header_text">#ff999999</color>
+
+</resources>

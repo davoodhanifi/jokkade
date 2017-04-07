@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitech.JokKade"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@id/shadow"
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:background="@color/actionbar_seprator" />
+
+        <include
+            android:id="@id/mostLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            layout="@layout/view_network_unavailable" />
+
+        <com.hitech.JokKade.utility.TextViewPlus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingRight="8.0dip"
+            android:text="@string/loginnote"
+            android:textColor="#372c24"
+            android:textSize="14.0sp"
+            app:customFont="DroidNaskh.ttf" />
+
+        <com.hitech.JokKade.utility.TextViewPlus
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingRight="8.0dip"
+            android:text="@string/hint_email"
+            android:textColor="#372c24"
+            android:textSize="14.0sp"
+            app:customFont="DroidNaskh.ttf" />
+
+        <EditText
+            android:id="@id/txtEmail"
+            style="@style/textbox_fill"
+            android:inputType="textEmailAddress" />
+
+        <com.hitech.JokKade.utility.TextViewPlus
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingRight="8.0dip"
+            android:text="@string/hint_pass"
+            android:textColor="#372c24"
+            android:textSize="12.0sp"
+            app:customFont="DroidNaskh.ttf" />
+
+        <EditText
+            android:id="@id/txtPassword"
+            style="@style/textbox_fill"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@id/btnLogin"
+            style="@style/btn"
+            android:layout_marginTop="40.0dip"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            style="@style/btn"
+            android:text="@string/notRegister" />
+        <!-- <Button android:id="@id/btnForgotPass" android:text="@string/forgot_pass" style="@style/btn_blue" /> -->
+        <!-- <Button android:id="@id/btnActivate" android:text="@string/activate" style="@style/btn_blue" /> -->
+
+
+        <!--
+             <TextView
+            android:id="@id/btnForgotPass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:paddingRight="8.0dip"
+            android:text="@string/forgot_pass"
+            android:textColor="#372c24" />
+        -->
+
+        <com.hitech.JokKade.utility.TextViewPlus
+            android:id="@id/txtLoginErr"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="10.0dip"
+            android:paddingRight="8.0dip"
+            android:text="@string/loginError"
+            android:textColor="#FF4747"
+            android:visibility="invisible"
+            app:customFont="DroidNaskh.ttf" />
+        
+    </LinearLayout>
+
+</ScrollView>

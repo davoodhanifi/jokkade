@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/actionbar_color"
+    android:gravity="center" >
+ 
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/hitech" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgLogo"
+        android:layout_marginTop="18.66dp"
+        android:gravity="center_horizontal"
+        android:text="HiTech Studio"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+ 
+</RelativeLayout>
