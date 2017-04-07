@@ -1,1 +1,1 @@
-# jokkade
+A simple iranian joking application.
