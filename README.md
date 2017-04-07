@@ -1,1 +1,1 @@
-A simple iranian joking application.
+A simple iranian joke application.
